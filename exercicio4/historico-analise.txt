@@ -1,0 +1,91 @@
+
+git log mostra todos os commits
+   
+    Victor@Mallih MINGW64 ~/Documents/meu-primeiro-repo/exercicio4 (master)
+$ git log
+commit 94507c9b7dd240fda449244bb9c3e2654757991a (HEAD -> master)
+Author: MsLVictor <victormleite25@icloud.com>
+Date:   Mon Dec 1 09:32:28 2025 -0300
+
+    Marca primeira tarefa como concluída
+
+commit 3a6fea557cd95816000e993b63597e6e152f3985
+Author: MsLVictor <victormleite25@icloud.com>
+Date:   Mon Dec 1 09:31:50 2025 -0300
+
+    Adiciona  mais tarefas à lista
+
+commit 057bc07c7541253e45c92fc69b431557f79eff4d
+Author: MsLVictor <victormleite25@icloud.com>
+
+
+
+
+
+
+git log --oneline ele serve para visualização rápida, reduzindo o hash e resumindo outras infos menos importantes.
+
+Victor@Mallih MINGW64 ~/Documents/meu-primeiro-repo/exercicio4 (master)
+$ git log --oneline
+94507c9 (HEAD -> master) Marca primeira tarefa como concluída
+3a6fea5 Adiciona  mais tarefas à lista
+057bc07 Adiciona lista de tarefas inicial
+8d230ec add arquivo1.txt arquivo2.txt
+06593fa add "." in README
+e995f52 estados-git
+d1fa5b4 add exercicio1.txt
+
+
+
+
+
+git log --oneline --graph é uma representação visual, achei mais útil com as branches.
+
+Victor@Mallih MINGW64 ~/Documents/meu-primeiro-repo/exercicio4 (master)
+$ git log --oneline --graph
+* 94507c9 (HEAD -> master) Marca primeira tarefa como concluída
+* 3a6fea5 Adiciona  mais tarefas à lista
+* 057bc07 Adiciona lista de tarefas inicial
+* 8d230ec add arquivo1.txt arquivo2.txt
+* 06593fa add "." in README
+* e995f52 estados-git
+* d1fa5b4 add exercicio1.txt
+
+
+
+git log -n 2 ele limita a quantidade de commits mostrados.
+
+Victor@Mallih MINGW64 ~/Documents/meu-primeiro-repo/exercicio4 (master)
+$ git log -n 2
+commit 94507c9b7dd240fda449244bb9c3e2654757991a (HEAD -> master)
+Author: MsLVictor <victormleite25@icloud.com>
+Date:   Mon Dec 1 09:32:28 2025 -0300
+
+    Marca primeira tarefa como concluída
+
+commit 3a6fea557cd95816000e993b63597e6e152f3985
+Author: MsLVictor <victormleite25@icloud.com>
+Date:   Mon Dec 1 09:31:50 2025 -0300
+
+    Adiciona  mais tarefas à lista
+
+
+
+git log --author="<nome>" serve para filtrar por nome de autor.
+
+Victor@Mallih MINGW64 ~/Documents/meu-primeiro-repo/exercicio4 (master)
+$ git log --author="MsLVictor"
+commit 94507c9b7dd240fda449244bb9c3e2654757991a (HEAD -> master)
+Author: MsLVictor <victormleite25@icloud.com>
+Date:   Mon Dec 1 09:32:28 2025 -0300
+
+    Marca primeira tarefa como concluída
+
+commit 3a6fea557cd95816000e993b63597e6e152f3985
+Author: MsLVictor <victormleite25@icloud.com>
+Date:   Mon Dec 1 09:31:50 2025 -0300
+
+    Adiciona  mais tarefas à lista
+
+commit 057bc07c7541253e45c92fc69b431557f79eff4d
+Author: MsLVictor <victormleite25@icloud.com>

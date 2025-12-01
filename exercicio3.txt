@@ -1,0 +1,19 @@
+git log
+para verificar os commits
+
+git show
+para verificar o ultimo commit
+
+touch arquivo1.txt arquivo2.txt
+cria dois arquivos simultaneamente.
+
+git add arquivo1txt arquivo2.txt
+adiciona os dois arquivos ao staging 
+
+git commit -m 'add arquivo1.txt arquivo2.txt'
+criando ponto de salvamento que pode ser rastreado ou revertido.
+
+
+touch exercicio3.txt
+
+

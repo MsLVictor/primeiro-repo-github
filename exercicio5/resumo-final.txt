@@ -1,0 +1,41 @@
+11 commits feitos (git rev-list --count HEAD):
+
+git log --oneline
+54495cd (HEAD -> master) adicionando todos arquivos untraked
+90216ec Adiciona .gitignore
+b302a5a Atualiza documentação e código principal
+8a357bf Adicionando documentação do projeto
+94507c9 Marca primeira tarefa como concluída
+3a6fea5 Adiciona  mais tarefas à lista
+057bc07 Adiciona lista de tarefas inicial
+8d230ec add arquivo1.txt arquivo2.txt
+06593fa add "." in README
+e995f52 estados-git
+d1fa5b4 add exercicio1.txt
+
+mostra os arquivos commitados (git ls-tree -r HEAD --name-only):
+
+.gitignore
+codigo/auxiliar.txt
+codigo/principal.txt
+docs/projeto.txt
+docs/referencias.txt
+resumo-final.txt
+
+Estrutura final do projeto:
+
+exercicio5/
+    codigo/
+        auxiliar.txt
+        principal.txt
+    docs/
+        projeto.txt
+        referencias.txt
+    .gitignore 
+    resumo-final.txt
+    teste.log
+
+Comandos git aprendidos.
+git rev-list --count HEAD (mostra quantidade de commits feitos)
+git ls-tree -r HEAD --name-only (mostra arquivos commitados)
+Aprendi como utilizar o .gitignore também!
