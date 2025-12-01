@@ -1,0 +1,7 @@
+especificações projeto:
+
+ 1 - add index.html
+ 2 - add style.css
+ 3 - add script.js
+
+ 
