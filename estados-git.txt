@@ -1,3 +1,7 @@
-estados-git.txt  U (untracked é quando eu crio o arquivo, mas não adiciono com " git add ")
+Estados observados durante o exercício. 
 
-exercicio1.txt M (Modified é quando eu dou git add exercicio1.txt sem prosseguir com o commit)
+U untracked é quando eu crio o arquivo, mas não adiciono com " git add "
+
+M Modified é quando eu adiciono (git add <nome do arquivo>) e faço o commit (git commit -m "<comentário>") e depois disso eu edito o arquivo.
+
+A Added indica que o arquivo novo anteriormente não rastreado, e agora foi incluido para o próximo commit.

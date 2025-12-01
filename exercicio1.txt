@@ -1,2 +1,22 @@
 CÓDIGOS USADOS NO EXERCÍCIO 1 DIA 2
 
+- cirei a pasta usando mkdir
+mkdir meu-primeiro-repo
+
+- entrando na pasta criada usando cd
+cd meu-primeiro-repo
+
+- incializa repositório local
+git init
+
+- lista todos os arquivos (-a mostra itens ocultos)
+ls -a
+
+- cria arquivos
+touch exercicio1.txt
+
+- verifica status de tudo que foi feito até agora
+git status
+
+- adiciona exercicio1 para a staging area
+git add exercicio1
