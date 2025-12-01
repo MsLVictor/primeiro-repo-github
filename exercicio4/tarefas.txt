@@ -1,10 +1,10 @@
-tarefa 1
-    - Estudar git
+tarefa 1 CONCLUIDA
+    - Estudar git 
 tarefa 2
     - Estudar como criar repositório local.
 tarefa 3
     - Estudar git log.
 tarefa 4
-    - Estudar git flow
+    - Estudar git flow.
 tarefa 5
-    - Estudar git branche
+    - Estudar git branche.
