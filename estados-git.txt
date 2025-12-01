@@ -1,0 +1,3 @@
+estados-git.txt  U (untracked é quando eu crio o arquivo, mas não adiciono com " git add ")
+
+exercicio1.txt M (Modified é quando eu dou git add exercicio1.txt sem prosseguir com o commit)
