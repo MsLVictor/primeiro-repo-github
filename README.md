@@ -1,4 +1,3 @@
 # Meu Primeiro Repositório Git
 
-.testeconflity;;
-.testeconflito
+-- aqui está alguns dos exercícios de git.
